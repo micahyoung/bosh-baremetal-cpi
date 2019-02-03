@@ -7,8 +7,8 @@ BOSH CPI using PXE and WiFi Smart Plugs to manage bare metal machines
 * Optional: compatible network accessible power strip for hard stop, stop, restart commands
 
 ## Design
-0) Push/run IaaS web-app to known, reachable domain name or IP address
-0) Download USB image from web-app and flash to USB
-0) Boot baremetal machine from USB
-0) Set IaaS app server URL in bosh manifest
-0) Run bosh create-env to boot the director machine
+1) Push/run IaaS web-app to known, reachable domain name or IP address
+1) Download USB image from web-app and flash to USB
+1) Boot baremetal machine from USB
+1) Set IaaS app server URL in bosh manifest
+1) Run bosh create-env to boot the director machine
