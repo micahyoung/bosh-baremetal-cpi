@@ -2,7 +2,7 @@
 BOSH CPI using PXE and WiFi Smart Plugs to manage bare metal machines
 
 ## Prerequistes
-* Existing network with DHCP server
+* Existing private network with DHCP server (NAT optional)
 * Dedicated machine to host IaaS web app with dedicated URL or IP address
 * Optional: compatible network accessible power strip for hard stop, stop, restart commands
 
